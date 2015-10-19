@@ -1,4 +1,5 @@
-import sys, pygame
+import sys, pygame, os
+from grabGraphic import *
 
 #Has all of the information about the window
 #Each Menu will have it's own object
@@ -15,14 +16,22 @@ class optionsMenu:
         self.white = 255, 255, 255
         self.linelen = 60
         self.screen = screen
+        self.imagePath = os.path.join('assets', 'graphics','werebutton.png');
 		#totally arbitrary, but should be at least the button's height plus some.
         self.lineHeight = 43
         self.font = pygame.font.Font(None, self.lineHeight)
-        self.background = pygame.image.load('werebutton.png')
+        #self.background = pygame.image.load(self.imagePath)
+        self.background = grabG('werebutton.png');
+		#is still Running
+        self.running = True;
+        print(os.path.dirname(__file__)); #<-- absolute dir the script is in
+
     def collide(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                sys.exit()
+                self.running = False
+                #end execution if exited.
+                return;
             if event.type == pygame.MOUSEBUTTONDOWN : 
                 x, y = event.pos
                 for opp in self.options:
@@ -49,6 +58,8 @@ class optionsMenu:
             i = i+1
 
     def menu(self):
-        self.collide()
         self.displayText()
         pygame.display.flip()
+        self.collide()
+		#returns rather or not window is still running.
+        return self.running;

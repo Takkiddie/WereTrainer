@@ -1,0 +1,70 @@
+None:
+
+You hear another knock on the door. You hide Garou in a back room to avoid scaring your guest, and go to answer the door. For the second time in a very short time, you're stunned to see who your visitor is.
+
+Mr. Stacks:
+
+Mr. Fowl, a pleasure to meet you. Do you mind if I come in, I have a bit of important business that I don't wish to conduct on a porch.
+
+Nervous You:
+
+Umm... I would but my house is a bit of a mess right now.
+
+Mr. Stacks:
+
+I see... well fine I suppose I can make this short. I understand that you are the best in the business at training weres and I have an offer for you. It may seem like a dangerous one but...
+
+Emoting Mr. Stacks:
+
+Garou!
+
+None:
+
+You turn around to see your werewolf peering out at the two of you from a window.
+
+Nervous You:
+
+Mr. Stacks, I can explain, he's...
+
+You: 
+
+Wait, you know his name?
+
+Emoting Mr. Stacks:
+
+Garou, what are you doing here? I told you I'd make him the offer and then-
+
+Garou:
+
+He said yes.
+
+Mr. Stacks:
+
+Oh. Ah... I suppose I picked the right man for the job after all. 
+
+You:
+
+What's going on?
+
+None:
+
+Stacks pulls out a contract and hands it to you.
+
+Mr. Stacks:
+
+I wanted to hire you as Garou's personal trainer, I need him to win a few were-dog tournaments before the end of the year. I'll take care of everything financially. Expenses, supplies, equipment, everything you need. As well as a sizable commission.
+
+Also, my lawyers will handle all the paper work. Sign this and you won't ever have to worry...
+
+You:
+
+Done!
+
+None:
+
+You hand back the signed paper to the surprised Mr. Stacks.
+
+Mr. Stacks:
+
+I suppose I'll leave you to it then.
+
